@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+<form action="CalcServlet" method="post">
+number1 <input type="text" value="first no" name="a1"><br>
+number2 <input type="text" value="second no" name="a2"><br>
+<input type="submit" value="add">
+</form>
+</body>
+</html>

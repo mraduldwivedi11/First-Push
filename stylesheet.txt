@@ -1,0 +1,15 @@
+External Style Sheet - If you need to use your style sheet to various pages, then its always recommended to define a 
+common style sheet in a separate file. A cascading style sheet file will have extension as .css and it will be included
+in HTML files using <link> tag.
+Here we defined three CSS rules which will be applicable to three different classes defined for the HTML tags.
+I suggest you should not bother about how these rules are being defined because you will learn them while studying CSS.
+
+
+Internal Style Sheet  - If you want to apply Style Sheet rules to a single document only, then you can include those rules in header section 
+of the HTML document using <style> tag.
+Rules defined in internal style sheet overrides the rules defined in an external CSS file.
+
+
+Inline Style Sheet - You can apply style sheet rules directly to any HTML element using style attribute of the relevant tag. 
+This should be done only when you are interested to make a particular change in any HTML element only.
+Rules defined inline with the element overrides the rules defined in an external CSS file as well as the rules defined in <style> element.
